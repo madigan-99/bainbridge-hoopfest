@@ -67,12 +67,12 @@ h1 {
 }
 
 a {
-	color: #00ECB9;
+	color: #fead16;
 	text-decoration: none;
 	padding: 0px 20px;
 }
 a:hover {
-	color: #00BF96;
+	color: #ffbb3b;
 }
 
 #clockdiv {
