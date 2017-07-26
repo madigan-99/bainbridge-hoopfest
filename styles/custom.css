@@ -8,6 +8,8 @@ body {
     background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
     /* For Firefox 3.6 to 15 */
     font-family: "Bookman";
+		text-align: center;
+		font-weight: 100;
 }
 
 .main-body {
@@ -50,13 +52,6 @@ body {
 
 .main-body-header-inline {
     display: inline;
-}
-
-body {
-    text-align: center;
-    background: #00ECB9;
-    font-family: sans-serif;
-    font-weight: 100;
 }
 
 h1 {
