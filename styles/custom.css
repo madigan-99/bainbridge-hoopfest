@@ -1,32 +1,49 @@
-body{
-	background: #ffb732;
-	background: radial-gradient(circle, #ffdb99, #ffb732, #ffa500); 
-	background: -webkit-radial-gradient(circle, #ffdb99, #ffb732, #ffa500); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(circle, #ffdb99, #ffb732, #ffa500); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500); /* For Firefox 3.6 to 15 */
-	font-family: "Bookman";
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+body {
+    background: #ffb732;
+    background: radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    background: -webkit-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    /* For Firefox 3.6 to 15 */
+    font-family: "Bookman";
+    text-align: center;
+    font-weight: 100;
 }
 
-.main-body{
-	width: 70%;
-	background-color: #4169e1;
-	border-color: #000000;
-	padding-top: .5em;
-	float:center;
-	display:block;
-	position: static;
-	padding-bottom: .5em;
-	}
-.main-body-header{
-	float: left;
-	margin-left: 0;
-
+h2 {
+    color: #fead16;
+    font-size: 3em;
+    font-family: 'Monoton', cursive;
 }
 
-.navigation ul li{
-	list-style-type: none;
-	display: inline-block;
-	font-size: 1.25em;
+.main-body {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: #000000;
+    padding-top: .5em;
+    float: center;
+    display: block;
+    position: static;
+    padding-bottom: .5em;
+}
+
+.main-body-header {
+    float: left;
+    margin-left: 0;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 1.25em;
+}
+
+.navigation ul li a {
+    font-weight: bold;
 }
 
 .scd-counter-col {
@@ -34,8 +51,7 @@ body{
     clear: both;
 }
 
-.scd-all-wrapper
-{
+.scd-all-wrapper {
     color: white;
     text-align: center;
     display: block;
@@ -45,24 +61,29 @@ body{
     width: 100%;
     font-size: inherit;
 }
-.main-body-header-inline{
-	display:inline;
-}
-body{
-    text-align: center;
-    background: #00ECB9;
-  font-family: sans-serif;
-  font-weight: 100;
+
+.main-body-header-inline {
+    display: inline;
 }
 
-h1{
-  color: #396;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+h1 {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
 }
 
-#clockdiv{
+a {
+    color: #fead16;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+a:hover {
+    color: #ffbb3b;
+}
+
+#clockdiv {
     font-family: sans-serif;
     color: #fff;
     display: inline-block;
@@ -71,21 +92,21 @@ h1{
     font-size: 30px;
 }
 
-#clockdiv > div{
+#clockdiv>div {
     padding: 10px;
     border-radius: 3px;
     background: #00BF96;
     display: inline-block;
 }
 
-#clockdiv div > span{
+#clockdiv div>span {
     padding: 15px;
     border-radius: 3px;
     background: #00816A;
     display: inline-block;
 }
 
-.smalltext{
+.smalltext {
     padding-top: 5px;
     font-size: 16px;
 }
