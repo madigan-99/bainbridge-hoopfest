@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-
 body {
     background: #ffb732;
     background: radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
@@ -10,19 +9,19 @@ body {
     background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
     /* For Firefox 3.6 to 15 */
     font-family: "Bookman";
-		text-align: center;
-		font-weight: 100;
+    text-align: center;
+    font-weight: 100;
 }
 
 h2 {
-	color: #fead16;
-	font-size: 3em;
-	font-family: 'Monoton', cursive;
+    color: #fead16;
+    font-size: 3em;
+    font-family: 'Monoton', cursive;
 }
 
 .main-body {
     width: 70%;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     border-color: #000000;
     padding-top: .5em;
     float: center;
@@ -39,12 +38,12 @@ h2 {
 .navigation ul li {
     list-style-type: none;
     display: inline-block;
-		margin: 0px 5px;
+    margin: 0px 5px;
     font-size: 1.25em;
 }
 
 .navigation ul li a {
-		font-weight: bold;
+    font-weight: bold;
 }
 
 .scd-counter-col {
@@ -75,12 +74,13 @@ h1 {
 }
 
 a {
-	color: #fead16;
-	text-decoration: none;
-	padding: 0px 20px;
+    color: #fead16;
+    text-decoration: none;
+    padding: 0px 20px;
 }
+
 a:hover {
-	color: #ffbb3b;
+    color: #ffbb3b;
 }
 
 #clockdiv {
