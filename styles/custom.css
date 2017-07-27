@@ -123,20 +123,22 @@ hr.style {
     border-top: 2px solid #000080;
     width: 95%;
 }
-.main-body .section-header{
+.section-header{
     float:left;
     font-weight:bold;
     font-size:2em;
     color:#000000;
-    padding-left: 1em;
+    margin-left: 1em;
    
 }
-.section-text{
+.section-text {
     float: left;
     text-align: left;
     margin-left: 2em;
     margin-right: 2em;
+    display:block;
     font-size: 1.1em;
+
 }
 
 .section-text a{
