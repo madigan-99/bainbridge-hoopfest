@@ -110,3 +110,7 @@ a:hover {
     font-size: 16px;
     color:#fead16;
 }
+
+hr.style {
+    border-top: 2px solid #000080;
+}
