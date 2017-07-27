@@ -87,6 +87,10 @@ a {
     padding: 0px 1.5vw;
 }
 
+h3{
+    font-weight: 450;
+}
+
 a:hover {
     color: #ffbb3b;
 }
@@ -167,8 +171,6 @@ hr.style {
     margin-left:3vw;
 }
 
-
-
 .contact-section-names {
     text-align: left;
     display: inline-block;
@@ -180,13 +182,32 @@ hr.style {
 }
 
 .contact-section-names a {
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: #000000;
     padding: 0;
     margin: 0;
+    text-decoration-style: solid;
 }
 
 .contact-section-names img {
     padding-left: 10px;
     padding-right: 10px;
+}
+.forms-button{
+    padding:10px;
+    background-color:#000080;
+    font-size:1.1em;
+    font-weight: 100;
+    text-decoration: none;
+    display:inline-block;
+    color:#fead16;
+    margin-right: 10px;
+    opacity: .9;
+    border-left: 2px #000000;
+    box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
+}
+
+
+a:hover .forms-button{
+    opacity: .7;
 }
