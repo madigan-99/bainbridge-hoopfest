@@ -26,6 +26,8 @@ h2 {
     padding-top: .5em;
     display: block;
     padding-bottom: .5em;
+    box-shadow: 4px 0 2px -2px rgba(0,0,0,.4);
+  
 }
 
 .main-body-header {
