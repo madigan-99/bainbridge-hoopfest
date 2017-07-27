@@ -14,31 +14,32 @@ function getTimeRemaining(endtime) {
 }
     var today = new Date();
     var todayMonth = today.getMonth();
-    var todayDay = today.getDay();
+    var todayDay = today.getDate();
     var todayHour = today.getHours();
     var todayMinutes = today.getMinutes();
     var todaySeconds = today.getSeconds();
 
 function getMonthsLeft(){
-    if((todayMonth==6) && (todayDay>18)){
+    if((todayMonth===6) && (todayDay>18)){
+        var all = 92; 
+        return all;
+    }
+    if((todayMonth===7) && (todayDay<18)){
         return 92;
     }
-    if((todayMonth==7) && (todayDay<18)){
-        return 92;
-    }
-    if((todayMonth==7) && (todayDay>18)){
+    if((todayMonth===7) && (todayDay>18)){
         return 61;
     }
-    if((todayMonth==8) && (todayDay<18)){
+    if((todayMonth===8) && (todayDay<18)){
         return 61;
     }
-    if((todayMonth==8) && (todayDay>18)){
+    if((todayMonth===8) && (todayDay>18)){
         return 30;
     }
-    if((todayMonth==9) && (todayDay<18)){
+    if((todayMonth===9) && (todayDay<18)){
         return 31;
     }
-    if((todayMonth==9) && (todayDay>18)){
+    if((todayMonth===9) && (todayDay>18)){
         return 0;
     }
     else{
@@ -53,11 +54,11 @@ function getDaysLeft(){
         return smallDay;
     }
     if(todayDay>18){
-        if(todayMonth==6 || todayMonth==7 || todayMonth==9){
+        if(todayMonth===6 || todayMonth===7 || todayMonth===9){
             var smallDay = 31- todayDay + 17;
             return smallDay;
         }
-        if(todayMonth==8 || todayMonth==10){
+        if(todayMonth===8 || todayMonth===10){
             var smallDay = 30- todayDay + 17;
             return smallDay;
         }
