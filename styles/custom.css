@@ -116,7 +116,7 @@ a:hover {
 .smalltext {
     padding-top: 5px;
     font-size: 16px;
-    color:#fead16; /*find new color*/
+    color:#000080; /*find new color*/
 }
 
 hr.style {
@@ -135,6 +135,7 @@ hr.style {
     float: left;
     text-align: left;
     margin-left: 2em;
+    margin-right: 2em;
     font-size: 1.1em;
 }
 
@@ -144,4 +145,36 @@ hr.style {
    margin: 0;
    text-decoration: underline;
    font-weight: bold;
+}
+.maps iframe{
+    float:left;
+    width:400px;
+    height:300px;
+    border:0;
+    float:left; 
+    margin-top: 20px;
+    padding-left:20px;
+    display: inherit;
+    vertical-align: middle;
+}
+
+.contact-sections{
+    display:inline-block;
+}
+.contact-sections .maps iframe{
+    float:left;
+    text-align: left;
+}
+
+.contact-section-names{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    margin-left:2em;
+}
+.contact-section-names a{
+    text-decoration: underline;
+    color:#000000;
+    padding:0;
+    margin:0;
 }
