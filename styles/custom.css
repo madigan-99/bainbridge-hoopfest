@@ -9,7 +9,7 @@ body {
     background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
     /* For Firefox 3.6 to 15 */
     font-family: "Bookman";
-    text-align: center;
+   
     font-weight: 100;
 }
 
@@ -24,22 +24,23 @@ h2 {
     background-color: rgba(255, 255, 255, 0.7);
     border-color: #000000;
     padding-top: .5em;
-    float: center;
     display: block;
-    position: static;
     padding-bottom: .5em;
 }
 
 .main-body-header {
-    float: left;
+    display: inline-block;
     margin-left: 0;
+}
+
+.navigation{
+    display: inline-block;
 }
 
 .navigation ul li {
     list-style-type: none;
-    display: inline-block;
-    margin: 0px 5px;
     font-size: 1.25em;
+    display: inline-block;
 }
 
 .navigation ul li a {
@@ -62,8 +63,10 @@ h2 {
     font-size: inherit;
 }
 
-.main-body-header-inline {
+.main-body-header-inline h2{
     display: inline;
+    float:left;
+    padding-left: 1em;
 }
 
 h1 {
@@ -90,27 +93,55 @@ a:hover {
     font-weight: 100;
     text-align: center;
     font-size: 30px;
+    float:right;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-right: 2em;
 }
 
 #clockdiv>div {
     padding: 10px;
     border-radius: 3px;
     display: inline-block;
+    background-color: #ffdb99; /*find new color or remove*/
 }
 
 #clockdiv div>span {
     padding: 15px;
     border-radius: 3px;
-    background: #000080;
+    background: #000080; 
     display: inline-block;
 }
 
 .smalltext {
     padding-top: 5px;
     font-size: 16px;
-    color:#fead16;
+    color:#fead16; /*find new color*/
 }
 
 hr.style {
     border-top: 2px solid #000080;
+    width: 95%;
+}
+.section-header{
+    float:left;
+    font-weight:bold;
+    font-size:2em;
+    color:#000000;
+    padding-left: 1em;
+   
+}
+.section-text{
+    float: left;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.1em;
+}
+
+.section-text a{
+   color:#000000;
+   padding: 0;
+   margin: 0;
+   text-decoration: underline;
+   font-weight: bold;
 }
