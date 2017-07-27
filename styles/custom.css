@@ -95,18 +95,18 @@ a:hover {
 #clockdiv>div {
     padding: 10px;
     border-radius: 3px;
-    background: #00BF96;
     display: inline-block;
 }
 
 #clockdiv div>span {
     padding: 15px;
     border-radius: 3px;
-    background: #00816A;
+    background: #000080;
     display: inline-block;
 }
 
 .smalltext {
     padding-top: 5px;
     font-size: 16px;
+    color:#fead16;
 }
