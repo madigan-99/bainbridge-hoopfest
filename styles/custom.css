@@ -1,3 +1,5 @@
+/*Theme colors to be updated*/
+
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 body {
     background: #ffb732;
@@ -14,20 +16,22 @@ body {
 
 .main-body {
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     border-color: #000000;
     padding-top: .5em;
     display: block;
     padding-bottom: .5em;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     overflow: auto;
+
 }
 
 .main-body-header-inline h2 {
-    color: #fead16;
+    color: #ffa500;
     font-size: 3.6vw;
     font-family: 'Monoton', cursive;
     font-weight:100;
+    margin-bottom: .5em;
 }
 
 .main-body-header {
@@ -75,17 +79,11 @@ body {
     padding-left: 1em;
 }
 
-h1 {
-    color: #396;
-    font-weight: 100;
-    font-size: 40px;
-    margin: 40px 0px 20px;
-}
 
 a {
     color: #fead16;
     text-decoration: none;
-    padding: 0px 1.5vw;
+    padding: 0px 1.25vw;
 }
 
 h3{
@@ -101,35 +99,36 @@ a:hover {
     color: #fff;
     display: inline-block;
     position: static;
-    font-weight: 100;
+    font-weight: 700;
     text-align: center;
     font-size: 2vw;
     float: right;
     margin-top: 2.5vw;
     padding-top: 2vw;
     padding-right: 2vw;
+
 }
 
 #clockdiv>div {
     padding: .8vw;
     border-radius: 3px;
     display: inline-block;
-    background-color: #ffdb99;
+    background-color: #000080;
     /*find new color or remove*/
 }
 
 #clockdiv div>span {
     padding: 1vw;
     border-radius: 3px;
-    background: #000080;
     display: inline-block;
+
 }
 
 .smalltext {
     padding-top: 5px;
     font-size: 1.1vw;
-    font-weight: 00;
-    color: #000080;
+    font-weight: 100;
+    color: #fff;
     /*find new color*/
 }
 
@@ -195,7 +194,8 @@ hr.style {
     padding-right: 10px;
 }
 .forms-button{
-    padding:10px;
+    padding:14px;
+    margin:1em;
     background-color:#000080;
     font-size:1.1em;
     font-weight: 100;
@@ -206,6 +206,7 @@ hr.style {
     opacity: .9;
     border-left: 2px #000000;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
+    border-radius: 8px;
 }
 
 
