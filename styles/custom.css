@@ -27,6 +27,7 @@ body {
     color: #fead16;
     font-size: 3.6vw;
     font-family: 'Monoton', cursive;
+    font-weight:100;
 }
 
 .main-body-header {
@@ -200,7 +201,7 @@ hr.style {
     font-weight: 100;
     text-decoration: none;
     display:inline-block;
-    color:#fead16;
+    color:#FFFFFF;
     margin-right: 10px;
     opacity: .9;
     border-left: 2px #000000;
