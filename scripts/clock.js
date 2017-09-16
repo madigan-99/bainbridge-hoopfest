@@ -13,8 +13,6 @@ function getTimeRemaining(endtime) {
     };
 }
 
-//If you're still stalking my github, I know there are probably easier ways around this but this was the only solution I could think of and it works so I'm pleased
-    
     var today = new Date();
     var todayMonth = today.getMonth();
     var todayDay = today.getDate();
@@ -126,6 +124,8 @@ function initializeClock(id, endtime) {
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
 }
+
+
 
 
 var daysUntil = getDaysLeft() + getMonthsLeft();

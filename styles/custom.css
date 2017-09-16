@@ -1,4 +1,4 @@
-/*Theme colors to be updated*/
+/*Theme colors to be updated, just hideous*/
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 body {
@@ -208,7 +208,6 @@ hr.style {
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     border-radius: 8px;
 }
-
 
 a:hover .forms-button{
     opacity: .7;
