@@ -23,13 +23,13 @@ body {
     padding-bottom: .5em;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     overflow: auto;
-    font-family:"Helvetica";
+    font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
 
 .main-body-header-inline h2 {
     color: #000080;
-    font-size: 3.6vw;
+   font-size: 3.6vw;
     font-family: "Monoton", cursive;
     font-weight: 100;
     margin-bottom: .5em;
@@ -153,6 +153,7 @@ hr.style {
     margin-right: 2em;
     display: block;
     font-size: 1.1em;
+    
 }
 
 .section-text a {
@@ -161,8 +162,34 @@ hr.style {
     margin: 0;
     text-decoration: underline;
     font-weight: bold;
+
 }
 
+.section-text-left {
+    float: left;
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: block;
+    font-size: 1.1em;
+    width: 40%;
+       
+}
+
+.section-text-left a {
+    color: #696969;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.section-right{
+    float: right;
+    width: 40%;
+    padding-right:5%;
+
+}
 .maps iframe {
     float: left;
     width: 42%;
@@ -195,10 +222,10 @@ hr.style {
     padding-right: 10px;
 }
 .forms-button{
-    padding:12px;
-    margin:1em;
+    padding:10px;
+    margin:.4em;
     background-color:#000080;
-    font-size:1.1em;
+    font-size:1em;
     font-weight: 100;
     text-decoration: none;
     display:inline-block;
