@@ -1,3 +1,4 @@
+
 function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
@@ -13,8 +14,6 @@ function getTimeRemaining(endtime) {
     };
 }
 
-//If you're still stalking my github, I know there are probably easier ways around this but this was the only solution I could think of and it works so I'm pleased
-    
     var today = new Date();
     var todayMonth = today.getMonth();
     var todayDay = today.getDate();
@@ -23,30 +22,30 @@ function getTimeRemaining(endtime) {
     var todaySeconds = today.getSeconds();
 
 function getMonthsLeft(){
-    if((todayMonth===6) && (todayDay>18)){
-        var all = 92; 
-        return all;
+
+    if((todayMonth===10) && (todayDay>17)){
+        return 90;
     }
-    if((todayMonth===7) && (todayDay<18)){
-        return 92;
+    if((todayMonth===11) && (todayDay>17)){
+       return 59;
     }
-    if((todayMonth===7) && (todayDay>18)){
-        return 61;
+    if((todayMonth===11) && (todayDay<17)){
+        return 90;
     }
-    if((todayMonth===8) && (todayDay<18)){
-        return 61;
+    if((todayMonth===0) && (todayDay<17)){
+        return 59;
     }
-    if((todayMonth===8) && (todayDay>18)){
-        return 30;
-    }
-    if((todayMonth===9) && (todayDay<18)){
+    if((todayMonth===0) && (todayDay>17)){
         return 31;
     }
-    if((todayMonth===9) && (todayDay>18)){
+    if((todayMonth===1) && (todayDay<17)){
+        return 28;
+    }
+    if((todayMonth===1) && (todayDay>17)){
         return 0;
     }
-    if(todayMonth>10){
-        return null;
+    if((todayMonth===2) && (todayDay<17)){
+        return 0;
     }
     else{
         return 0;
@@ -55,17 +54,21 @@ function getMonthsLeft(){
 }
 
 function getDaysLeft(){ 
-    if(todayDay<18){
-        var smallDay = 17-todayDay;
+    if(todayDay<17){
+        var smallDay = 16-todayDay;
         return smallDay;
     }
-    if(todayDay>18){
-        if(todayMonth===6 || todayMonth===7 || todayMonth===9){
-            var smallDay = 31- todayDay + 17;
+    if(todayDay>17){
+        if(todayMonth===11 || todayMonth===0 || todayMonth===2){
+            var smallDay = 31- todayDay + 16;
             return smallDay;
         }
-        if(todayMonth===8 || todayMonth===10){
-            var smallDay = 30- todayDay + 17;
+        if(todayMonth=== 10){
+            var smallDay = 30 - todayDay +16;
+            return smallDay;
+        }
+        if(todayMonth===1){
+            var smallDay = 28- todayDay + 16;
             return smallDay;
         }
 
@@ -126,6 +129,8 @@ function initializeClock(id, endtime) {
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
 }
+
+
 
 
 var daysUntil = getDaysLeft() + getMonthsLeft();
